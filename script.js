@@ -1,3 +1,17 @@
+// gsap.to("#fanta", {
+//     rotate: -15,
+//     scrollTrigger: {
+//       trigger: "#fanta",
+//       scroller: "#main",
+//       start: "top 5%",
+//       end: "top -416%",
+//       scrub: true,
+//       pin: true
+
+//     }
+//   })
+
+
 var tl = gsap.timeline({scrollTrigger:{
     trigger: ".sec2",
     start: "0% 95%",
@@ -8,12 +22,14 @@ var tl = gsap.timeline({scrollTrigger:{
 
 tl.to("#fanta",{
     top: "120%",
-    left: "25%"
+    left: "25%",
+    pin: true
 }, 'orange')
 
 tl.to("#goli",{
     top: "200%",
-    left: "50%"
+    left: "50%",
+    pin: true
 }, 'orange')
 
 
@@ -30,7 +46,8 @@ var tl2 = gsap.timeline({scrollTrigger:{
 }})
 tl2.to("#fanta",{
     top: "220%",
-    left: "25%"
+    left: "25%",
+    pin: true
 }, 'ad')
 
 tl2.to("#goli",{
@@ -51,7 +68,8 @@ var tl3 = gsap.timeline({scrollTrigger:{
 }})
 tl3.to("#fanta",{
     top: "320%",
-    left: "25%"
+    left: "25%",
+    pin: true
 }, 'aa')
 
 tl3.to("#goli",{
@@ -71,7 +89,8 @@ var tl4 = gsap.timeline({scrollTrigger:{
 }})
 tl4.to("#fanta",{
     top: "410%",
-    left: "5%"
+    left: "5%",
+    pin: true
 }, 'dd')
 var tl5 = gsap.timeline({scrollTrigger:{
     trigger: ".sec5",
@@ -83,7 +102,8 @@ var tl5 = gsap.timeline({scrollTrigger:{
 tl5.to("#fanta",{
     top: "410%",
     left: "50%",
-    delay: "3"
+    delay: "3",
+    pin: true
 }, 'dd')
 
 
@@ -98,7 +118,8 @@ var tl6 = gsap.timeline({scrollTrigger:{
 tl6.to("#fanta",{
     top: "530%",
     left: "50%",
-    delay: "0.1"
+    delay: "0.1",
+    pin: true
 }, 'qw')
 var tl7 = gsap.timeline({scrollTrigger:{
     trigger: ".sec6",
@@ -110,7 +131,8 @@ var tl7 = gsap.timeline({scrollTrigger:{
 tl7.to("#fanta",{
     top: "520%",
     left: "-60%",
-    delay: "1.5"
+    delay: "1.5",
+    pin: true
 }, 'qw')
 
 
